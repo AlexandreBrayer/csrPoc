@@ -23,7 +23,7 @@ export const actions = {
 			return fail(400, { form });
 		}
 
-		if (form.data.result === '50') {
+		if (form.data.result === '5') {
 			return message(form, { text: 'Correct!', formData: form.data });
 		}
 
